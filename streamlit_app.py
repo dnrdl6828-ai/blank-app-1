@@ -91,9 +91,10 @@ def ask_agent(agent_executor, question: str):
 # --------------------------------------------------------------------
 def main():
     st.set_page_config(page_title="기술보증기금 AI 비서", layout="wide", page_icon="🤖")
-    st.image('data/kibo_image.jpg', width=800)
+    #st.image('data/kibo_image.jpg', width=800)
+    st.image('data2/AI.jpg', width=800)
     st.markdown('---')
-    st.title("안녕하세요! RAG + Web을 활용한 '기술보증기금 AI 비서' 입니다")  
+    st.title("「차세대 챗봇 시스템 기반 지식공유 플랫폼」")  
 
     with st.sidebar:
         openai_api = st.text_input("OPENAI API 키", type="password")
